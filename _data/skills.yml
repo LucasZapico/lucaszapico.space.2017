@@ -1,0 +1,49 @@
+# DESIGN
+- title: Graphic Design
+  type: design
+  level: percent50
+  link:
+
+- title: UI Design
+  type: design
+  level: percent60
+
+- title: Sketch
+  type: design
+  level: percent60
+
+- title: Adobe - Illurstrator, Photoshop
+  type: design
+  level: percent50
+
+- title: UX Design
+  type: design
+  level: percent40
+
+- title: UX prototyping
+  type: design
+  level: percent40
+
+# DEVELOPEMT
+- title: HTML
+  type: development
+  level: percent80
+
+- title: CSS
+  type: development
+  level: percent75
+
+- title: JavaScript
+  type: development
+  level: percent40
+
+
+- title: Version Control
+  type: development
+  level: percent65
+
+- title: Node
+  type: development
+  level: percent35
+
+# MANAGEMENT

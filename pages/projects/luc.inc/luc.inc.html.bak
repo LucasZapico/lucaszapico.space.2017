@@ -1,0 +1,130 @@
+---
+layout: page-hero
+title: "Luc.Inc Project"
+description: "A summary of the Luc.Inc project"
+permalink: /luc-inc-project/
+hero-1x: /pages/projects/luc.inc/luc.inc-assests/luc-inc-hero/luc-inc-hero-600.png 600w
+hero-2x: /pages/projects/luc.inc/luc.inc-assests/luc-inc-hero/luc-inc-hero-1433.png 1433w
+hero-3x: /pages/projects/luc.inc/luc.inc-assests/luc-inc-hero/luc-inc-hero-2062.png 2062w
+hero-4x: /pages/projects/luc.inc/luc.inc-assests/luc-inc-hero/luc-inc-hero-2880.png 2880w
+img2-1x:
+img2-2x:
+img2-3x:
+img2-4x:
+asset-link:
+class: portfolio
+next:  /morency-real-estate-project/
+previous: /freebird-rides-project/
+---
+
+{% include project-arrows.html %}
+<main class="{{page.class}} space project text-body-lg">
+  <section class="product container space" alt="situation">
+    <div class="row ">
+      <div class="col s12 m6 l6">
+        <h3>Product</h3>
+        <p class="text-body-lg ">
+        Luc.inc is a producer of infrastructure, strategy, and assets. Taking an ecosystem approach to modern business, carried by deliberate questions and analysis. Above all a mission to ensure products are built with attention and a drive to serve and add value.
+        </p>
+      </div>
+      <div class="col s12 m6 l6">
+      </div>
+    </div>
+  </section>
+  <section class="project bg-color space" alt="task">
+    <div class="row container">
+      <div class="col s12 m6 l6">
+      </div>
+      <div class="col s12 m6 l6">
+        <h3>Project</h3>
+        <p class="text-body-lg">
+            Build a digital story that showcases the skill, and work.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row container">
+      <div class="col s12 m12 l12">
+        <img src="{{site.baseurl}}{{page.img2}}" />
+      </div>
+    </div>
+  </section>
+  <section class="process" alt="action">
+    <div class="row container">
+      <div class="col s12 m6 l6">
+        <h3>Process</h3>
+        <em>The questions that were asked;</em>
+        <p class="text-body-lg">
+
+          <ul class="browser-default">
+            <li>
+              <p>What value or service are we delivering to our clients? </p>
+            </li>
+            <li>
+              <p>How do we validate or showcase our value proposition?</p>
+            </li>
+            <li>
+              <p>How do we convey it in a way that respect audiences time?</p>
+            </li>
+            <li>
+              <p>How are we driving toward our business objective? </p>
+            </li>
+          </ul>
+
+        </p>
+      </div>
+      <div class="col s12 m6 l6">
+
+      </div>
+    </div>
+  </section>
+  <section class="reflections bg-color space" alt="results">
+    <div class="row container">
+      <div class="col s12 m6 l6">
+        <h3>Result</h3>
+        <p class="text-body-lg">
+          The successful production of the Luc.inc portfolio website version 3.
+        </p>
+        <p>
+
+        </p>
+
+      </div>
+      <div class="col s12 m6 l6">
+
+
+        <h4><em>Deliverables</em></h4>
+        <ul class="browser-default">
+          <li>
+            <p>Web Design and Development</p>
+          </li>
+          <li>
+            <p>Brand Identity</p>
+          </li>
+          <li>
+            <p>Design Direction</p>
+          </li>
+          <li>
+            <p>Copywriting</p>
+          </li>
+          <li>
+            <p>Project Management</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="container">
+    {% for luc-log in site.data.luc-inc-project-log %}
+      <h4>{{luc-log.title }}</h4>
+      <p>
+        {{luc-log.tags}}
+      </p>
+      <p>
+        {{luc-log.summary}}
+      </p>
+    {% endfor %}
+  </section>
+</main>

@@ -1,0 +1,110 @@
+
+img2-1x:
+img2-2x:
+img2-3x:
+img2-4x:
+class: aac
+next:  /dadapp-project/
+---
+
+
+<div class="row arrows-wrap">
+  <a href="{{site.baseurl}}{{page.next}}">
+    <span class="valign-wrapper arrows" style=" float: left; margin-left: 2rem;">
+      <i class="fas fa-angle-left"></i>
+      <p class="">
+        Previous Project
+      </p>
+    </span>
+  </a>
+</div>
+<main class="{{page.class}} space project text-body-lg">
+  <section class="product" alt="situation">
+    <div class="row container space">
+      <div class="col s12 m6 l6">
+        <h3>Product</h3>
+        <p class="text-body-lg ">
+          Advanced Aircraft Company develops and produces concept drones focused on optimizing airtime, weight, and durability. The drones use solid-state fuel to enhance flight time and power output.
+        </p>
+      </div>
+      <div class="col s12 m6 l6">
+      </div>
+    </div>
+  </section>
+  <section class="project bg-color" alt="task">
+    <div class="row container space">
+      <div class="col s12 m6 l6">
+          <!-- <img src="{{site.baseurl}}{{page.img2}}" /> -->
+      </div>
+      <div class="col s12 m6 l6">
+        <h3>Project</h3>
+        <p class="text-body-lg">
+            The goal of this project was to produce a product page, anchoring AAC developing a digital identity and informing and driving potential customers into clients. Showcasing the key value of the product and the potential benefit for customers.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- <section>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <img src="{{site.baseurl}}{{page.img2}}" />
+      </div>
+    </div>
+  </section> -->
+  <section class="process" alt="action">
+    <div class="row container space">
+      <div class="col s12 m6 l6">
+        <h3>Process</h3>
+        <p class="text-body-lg">
+          <p>
+            The site followed an inform, validate, trust and convert model. To meet this need it was necessary to answer key questions;
+          </p>
+          <ul class="browser-default">
+            <li><p>
+              Discover product values
+            </p></li>
+            <li><p>
+              Identification of audience
+            </p></li>
+            <li><p>
+              Synthesis of information into core data points and accompanying visual compliments
+            </p><br/></li>
+          </ul>
+        </p>
+      </div>
+      <div class="col s12 m6 l6">
+
+      </div>
+    </div>
+  </section>
+  <section class="reflections bg-color" alt="results">
+    <div class="row container space">
+      <div class="col s12 m6 l6">
+        <h3>Result</h3>
+        <p class="text-body-lg">
+        The project resulted in the successful development, production and deployment of the AAC Site.
+        </p>
+      </div>
+      <div class="col s12 m6 l6">
+
+        <h4><em>Deliverables</em></h4>
+        <ul class="browser-default">
+          <li>
+            <p>Design Direction</p>
+          </li>
+          <li>
+            <p>Content Creation</p>
+          </li>
+          <li>
+            <p>Web Design</p>
+          </li>
+          <li>
+            <p>Web Deployment and Hosting Set up</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+</main>
+{% include get-in-touch.html %}

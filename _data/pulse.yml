@@ -1,0 +1,25 @@
+
+- title: 'Moodboard: Module'
+  status:         live
+  date:           2018
+  link:
+  categories:     []
+  tags:           ['design', 'branding', 'content-creation']
+  type:           project
+  img:            /pages/projects/branding-process-auto/branding-process-auto-assets/showcase-moodboards.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link:   /branding-auto-project/
+  description:    This project leveraged workflows in sketch and web environments to develop low friction processes to produce high-quality core brand content. Thereby facilitating key branding documentation is expediently and efficiently produced.
+
+
+- title: 'Style Guide: Module'
+  status:         live
+  date:           2018
+  link:
+  categories:     []
+  tags:           ['design', 'frontend&#8209development']
+  type:           project
+  img:            /pages/projects/styleguide/styleguide-assets/v3.2.0/styleguide-d-v3.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link:   /styleguide-project/
+  description: 'Project: Develop semi-automated or systems to produce project content and design documentation for a project.'

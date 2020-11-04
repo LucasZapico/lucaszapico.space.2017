@@ -1,0 +1,61 @@
+.main {
+  .projects {
+    background-color: $light-2;
+    .row {
+      flex: auto;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      &>.col {
+        .row {
+          &>.col {
+            position: relative;
+            margin: auto;
+
+            &>div:first-child {
+              // padding: 2.5rem;
+              // background: linear-gradient(hsla(0, 0%, 98%, 0.70), hsla(0, 0%, 98%, 0.70));
+              position: absolute;
+              // // top: 0px;
+              // // left: 0px;
+              // height: 30rem;
+              // width: 40rem;
+            }
+          }
+        }
+
+
+        .card {
+      
+          margin: auto;
+
+          .card-action {
+            height: 5em;
+
+            a {
+              display: block;
+
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .main {
+    .projects {
+      .card-content {}
+
+      .card-action {
+        a {
+          display: inline;
+        }
+      }
+    }
+  }
+}

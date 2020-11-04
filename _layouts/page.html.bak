@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% include header.html %}
+<div class="main">
+  <h2>{{page.title}}</h2>
+  <!-- <nav class="breadcrumb-nav">
+    <div class="nav-wrapper grey lighten-5">
+      <div class="col s12">
+        <a href="{{site.baseurl}}/#" class="breadcrumb">Home</a>
+
+        {% for bread in page.breadlinks %}
+        <a href="{{site.baseurl}}{{bread}}" class="breadcrumb">
+          {{bread}}
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </nav> -->
+  <div class="divider"></div>
+  <div>
+  <!-- <div class="flow-text"> -->
+      {{ content }}
+  </div>
+</div>

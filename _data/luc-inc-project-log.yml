@@ -1,0 +1,5 @@
+- title: "Responsive images"
+  tags: [performance]
+  version: 3.1.0
+  summary: "Impliment a responsove image solution for a more performant expereience device to device"
+  solution:

@@ -1,0 +1,195 @@
+---
+layout: default
+title: "Luc.inc Productions"
+description: "Luc.Incs projects and value promise"
+---
+{% include header.html %}
+<div class="main  space-bottom home">
+  {% include animated-mark.html %}
+  <div class="row ">
+    <!--  <div class="col s12 m12 l12 xl12 "> -->
+    <section id="home-hero" class="space bg-color-secondary">
+      <div class="row space">
+        <div class="right-align hide-on-med-and-down col s12 m6 l6">
+          <h2>Question</h2>
+          <h2>Analyze</h2>
+          <h2>Convey</h2>
+          <h2>Solve</h2>
+        </div>
+        <div class="col s12 m12 l6">
+          <div class="col s12 m8 l8 " data-aos="fade-left">
+            <div class="space-left">
+              <h2 id="home-tag" class=" left-align type-two grey-text lighten-text-2"> Hello, my name is Lucas and
+                I&nbspdevelop</h2>
+              <!-- <p class="left-align type-two">But, at the end of the day I am a builder and solver; ever since legos with no directions</p> -->
+              <a class='left-align text-body-lg link em link-light' href='{{site.baseurl}}/about/'>more about Lucas</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- <img src="{{site.baseurl}}/assets/img/main-hero/main-hero@1x.jpg" /> -->
+      <div class="scroll-indicator">
+        <div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="work-feed scrollspy space-row space all-plus">
+      <h3 class="center-align">Recent Code</h3>
+      <div class="divider"></div>
+
+
+      <div class="row">
+           <div class="col s12 offset-m2 m10 l6 xl6">
+          <div class="row">
+            <div class="col offset-l2 offset-xl2 l8 xl8">
+              <div class="row">
+                <a href="https://journal-app-2020.firebaseapp.com/landing" target="_blank">
+                  <div class="img ">
+                    <img src="{{site.baseurl}}/assets/img/other-project-img/react-2020-journal-app.png">
+                  </div>
+                </a>
+                <div class="content">
+                  <h4>React Firebase Journal</h4>
+                  <a href="https://journal-app-2020.firebaseapp.com/" target="_blank">Go to project <i class="fas fa-external-link-alt"></i></a>
+                  <p>A React hooks and Firebase journal web app in progress as of March 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>{% for item in site.data.code-pen-projects limit: 3  %}
+
+        <div class="col s12 offset-m2 m10 l6 xl6">
+          <div class="row">
+            <div class="col offset-l2 offset-xl2 l8 xl8">
+              <div class="row" data-tags="{{item.tags | join: ","}}" data-link="{{item.link}}">
+                <a href="https://codepen.io/LucasZapico/pen/{{item.link}}" target="_blank">
+                  <div class="img ">
+                    <img src="https://codepen.io/LucasZapico/pen/{{item.screenShot}}">
+                  </div>
+                </a>
+                <div class="content">
+                  <h4>{{item.title}}</h4>
+                  <a href="https://codepen.io/LucasZapico/pen/{{item.link}}" target="_blank">Go to project <i class="fas fa-external-link-alt"></i></a>
+                  <p>{{item.summary}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {% endfor %}
+        </div>
+    </section> -->
+    <section class="projects scrollspy space-row space all-plus">
+      <h3 class="center-align">Work</h3>
+      <div class="divider"></div>
+      <div class="row ">
+        <a name="projects"></a>
+        {% for projects in site.data.projects limit: 6 %}
+        {% if projects.status == "live" %}
+        <div class="col s12 m6 l6 xl6">
+          <div class="row">
+            <div class="col  l10 xl8">
+              <div style="background-color: {{projects.color}}"></div>
+              <div class="card light-grey darken-1">
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">{{ projects.title }}<i
+                      class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">{{projects.title}}<i
+                      class="material-icons right">close</i></span>
+                  <h5>Challenge</h5>
+                  <p>{{projects.challenge}}</p>
+                  <h5>Outcome</h5>
+                  <p>{{projects.outcome}}</p>
+                  <h5>Deliverables</h5>
+                  <p>{{projects.deliverables}}</p>
+                  <a href="{{site.baseurl}}{{projects.project-link}}">...more</a>
+                </div>
+                <div class="card-action">
+                  {% if projects.project-link != null %}
+                  <a href="{{site.baseurl}}{{projects.project-link}}" class="link center">Project&#8209Summary&nbsp<i
+                      class="material-icons font-primary-color small link">arrow_forward</i></a> {%
+                          endif %}
+                </div>
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img srcset="{{site.baseurl}}{{projects.card-img-1x}},
+                    {{site.baseurl}}{{projects.card-img-2x}},
+                    {{site.baseurl}}{{projects.card-img-3x}}
+                    {{site.baseurl}}{{projects.card-img-4x}}" alt="{{projects.card-alt}}" class="activator" />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        <h5 class="space-left"><a class=" link waves-effect " href="{{site.baseurl}}/all-projects/">See All
+            Projects&nbsp<i class="material-icons font-primary-color small link">arrow_forward</i></a> </h5>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row workshop space all-plus">
+        <h3 class="center-align">My Workshops</h3>
+        <div class="divider">
+        </div>
+        <div class="row">
+          <div class="col 12 m6 l6">
+            <h6 class="grey-text text-darken-1">
+              Hop over to the <a class="link" href="{{site.baseurl}}/workshop/">Workshop</a> to see some tinkering.
+              Or checkout Codepen or Codesandbox to see some day to day development.
+          </div>
+          <div class="col 12 m6 l6"></div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4 l4">
+            <div>
+              <a href="{{site.codepen_link}}">
+                <img class="icons huge" src="{{site.baseurl}}/assets/img/technology-icons-svg/codepen.svg" />
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <span class="milli grey-test lighten-text-1">
+                <p>
+                  Codepen: layouts, svg, js animations, some react
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div>
+              <a href="{{site.codesandbox_link}}">
+                <img class="icons huge" src="{{site.baseurl}}/assets/img/technology-icons-svg/codesandbox.svg" />
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <span class="milli grey-test lighten-text-1">
+                <p>
+                  CodeSandbox: micro apps, components, react
+                </p>
+                <em>More focused on functionality then form</em>
+              </span>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div>
+              <a href="{{site.github_link}}">
+                <img class="icons huge" src="{{site.baseurl}}/assets/img/technology-icons-svg/github.svg" />
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <span class="milli grey-test lighten-text-1">
+                <p>
+                  Github
+                </p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+  </div>
+</div>
+<!-- main  -->

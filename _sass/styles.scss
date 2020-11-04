@@ -1,0 +1,58 @@
+/**
+**
+**    FORMATING FOUNDATION
+**
+**/
+@import 'base/_reset.scss';
+@import 'base/_accessibility.scss';
+@import 'color-type/_project-color-variables.scss';
+
+/**
+**
+**    MATERIAL
+**
+**/
+@import 'material-sass/materialize.scss';
+@import 'base/_base.scss';
+
+/**
+**
+**    COLOR TYPE
+**
+**/
+@import 'color-type/_project-color-utilities.scss';
+@import 'color-type/_project-type.scss';
+
+/**
+**
+**    COMPONENTS
+**
+**/
+@import "components/project-summary-card.scss";
+@import  "components/footer.scss";
+@import  "components/nav.scss";
+@import "components/project-card.scss";
+@import "components/scroll-indicator.scss";
+
+
+/**
+**
+**    PAGES & LAYOUTS 
+**
+**/
+@import "pages/_about.scss";
+@import "pages/_webkit.scss";
+@import "pages/_project.scss";
+@import "pages/_workshop.scss";
+@import "pages/_home.scss";
+
+/**
+**
+**   bonus
+**
+**/
+@import "_animate.scss";
+
+/***********************************/
+@import '_utilities.scss';
+@import '_catch.scss';

@@ -1,0 +1,54 @@
+---
+layout: page
+title: "All Projects"
+permalink: /all-projects/
+---
+
+<main class="main">
+  <section class="projects space all-plus">
+      <h3 class="center-align">All Projects</h3>
+      <div class="divider"></div>
+
+    <div class="row ">
+      <a name="projects"></a>
+      {% for projects in site.data.projects %}
+        {% if projects.status == "live" %}
+          <div class="col s12 m6 l6 xl6 space top bottom" >
+            <div class="row" >
+              <div class="col l8 xl8">
+                <div style="background-color: {{projects.color}}"></div>
+              <div class="card light-grey darken-1" >
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">{{ projects.title }}<i class="material-icons right">more_vert</i></span>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">{{projects.title}}<i class="material-icons right">close</i></span>  
+                    <h5>Challenge</h5>
+                    <p>{{projects.challenge}}</p>
+                    <h5>Outcome</h5>
+                    <p>{{projects.outcome}}</p>
+                    <h5>Deliverables</h5>
+                    <p>{{projects.deliverables}}</p>
+                    <a href="{{site.baseurl}}{{projects.project-link}}">...more</a>
+                  </div>
+                  <div class="card-action">
+                    {% if projects.project-link != null %}
+                      <a href="{{site.baseurl}}{{projects.project-link}}" class="link center">Project&#8209Summary&nbsp<i class="material-icons font-primary-color small link">arrow_forward</i></a> {%
+                      endif %}
+                    </div>
+              <div class="card-image waves-effect waves-block waves-light">
+                <img srcset="{{site.baseurl}}{{projects.card-img-1x}},
+                {{site.baseurl}}{{projects.card-img-2x}},
+                {{site.baseurl}}{{projects.card-img-3x}}
+                {{site.baseurl}}{{projects.card-img-4x}}"
+                alt="{{projects.card-alt}}" class="activator" />
+              </div>
+         
+              </div>
+            </div></div>
+            </div>
+          {% endif %}
+        {% endfor %}
+
+  </section>
+</main>

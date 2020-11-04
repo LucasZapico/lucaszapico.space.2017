@@ -1,0 +1,13 @@
+- title: Home
+  href: "/#"
+
+- title: All Work
+  href: "/all-projects/"
+  
+- title: About
+  href: "/about/"
+
+- title: Workshop
+  href: "/workshop/"
+# - title: Pulse
+#   href: "/#pulse"

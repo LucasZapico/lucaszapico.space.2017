@@ -1,0 +1,46 @@
+.projects {
+  // .row {display: flex;
+  // flex-wrap: wrap;
+  //   .col {
+  //     padding: 2.5rem;
+  //     background: linear-gradient(hsla(0, 0%, 98%, 0.70), hsla(0, 0%, 98%, 0.70));
+  //   }
+// }
+  .card {
+    .card-image {
+   
+      img {
+        background: linear-gradient(hsla(45, 75%, 45%, 0.70), hsla(45, 75%, 45%, 0.70));
+      height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        // height: 250px;
+      }
+    }
+    .card-content {
+      // height: 4rem;
+      // height: 10rem;
+      .tags {
+        background-color: scale-color($primary-color, $lightness: 90%);
+        border-radius: 2px;
+        margin: 0px;
+        margin-top: 2px;
+        padding: .1rem;
+        border: 1px solid;
+      }
+    }
+    .card-action {
+       height: 6rem;
+
+      a {
+        display: block;
+        font-size: 1.2rem;
+        line-height: 2rem;
+
+      }
+    }
+  }
+}
+
+

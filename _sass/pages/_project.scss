@@ -1,0 +1,107 @@
+
+main.project {
+  .row {
+    margin-bottom: 0px;
+  }
+  .col {
+    padding: 0px;
+    margin: 0px;
+  }
+  h3 {
+    // padding-bottom: 4rem;
+    // font-size: 4rem;
+  }
+  p {
+    font-family: $font-stack-secondary;
+  }
+  .stack {
+    div{
+      p {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        margin-top: -10px;
+      }
+    }
+  img {
+      fill: $color-palette-b;
+      height: 6rem;
+      padding: 1rem;
+    }
+}
+.carousel {
+  height: 80vh;
+   
+}
+}
+
+.arrows {
+  padding: .5rem;
+  overflow: hidden;
+     transition: all;
+  svg {
+    font-size: 2rem;
+    color: #bdbdbd;
+  }
+  p {
+    padding: .5rem;
+    color: #bdbdbd;
+  }
+}
+.arrows:hover {
+  svg {
+    color: $dark-2;
+  }
+  p {
+    color: $dark-2;
+  }
+}
+
+
+@media screen and (min-width: 400px){
+  .arrows-wrap {
+    background-color: #fbfbfb;
+    position: sticky;
+    top: 4rem;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .arrows-wrap {
+    background-color: transparent;
+    position: sticky; top: 20rem;
+    .arrows {
+     svg {
+       color: #bdbdbd;
+       font-size: 4rem;
+       transition: all .5s;
+     }
+
+     p {
+       text-transform: uppercase;
+       display: inline;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       color: $grey-l-1;
+       transition: all .5s;
+     }
+   }
+   .arrows:hover {
+     svg {
+       color: $dark-2;
+     }
+     p {
+       color: $dark-2;
+     }
+   }
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+
+}
+
+@media screen and (min-width: 1440px){
+
+}

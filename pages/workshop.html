@@ -1,0 +1,36 @@
+---
+layout: default
+title: Workshop
+permalink: /workshop/
+description: "Just a few of my tinkering and playing"
+---
+{% include header.html %}
+<div >
+  <h3 class="center-align">My {{page.title}}</h3>
+  <h6 class="center-align">Some of the more showcase-able micro projects</h6>
+  </div>
+     <div class="divider"></div>
+<main class="workshop">
+  
+  {% for project in site.data.code-pen-projects %}
+    {% assign tagsArr = tagsArr | uniq | concat: project.tags %}
+  {% endfor %}  
+  <div class="row tag-wrap">
+    {% for tag in tagsArr %}
+      <div class="tag">{{tag}}</div>
+    {% endfor %}
+  </div>
+  {% for project in site.data.code-pen-projects %}
+    <div class="row" data-tags="{{project.tags | join: ","}}" data-link="{{project.link}}">
+      <a href="https://codepen.io/LucasZapico/pen/{{project.link}}" target="_blank">
+        <div class="img ">
+          <img src="https://codepen.io/LucasZapico/pen/{{project.screenShot}}">
+        </div>
+      </a>
+      <div class="content">
+        <h4>{{project.title}}</h4>
+        <p>{{project.summary}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</main>

@@ -1,0 +1,53 @@
+
+//*********************//
+// HOME PAGE
+// HOOME HERO
+#home-hero {
+  position: relative;
+  .row > .col:first-child {
+      text-align: right;
+
+      h2 {
+          letter-spacing: 1rem;
+          font-size: 5rem;
+      }
+
+      h2:nth-child(1) {}
+
+      h2:nth-child(2) {
+          font-size: 5rem;
+      }
+
+      h2:nth-child(3) {
+          font-size: 5rem;
+      }
+  }
+
+  & > .col:nth-child(2) {
+      text-align: left;
+
+      a {
+          margin-left: 0px;
+      }
+  }
+
+  padding-top: 2rem;
+  height: 80vh;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 200px;
+
+  &::after {
+      position: absolute;
+      content: "";
+      pointer-events: none;
+      bottom: -110px;
+      z-index: -1;
+      width: 100%;
+      left: 1%;
+      border-top: 110px solid transparent;
+      border-color: $color-secondary;
+      border-right: 50vw transparent solid;
+      border-left: 50vw solid transparent;
+  }
+}

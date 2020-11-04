@@ -1,0 +1,101 @@
+$font-stack-secondary: 'Libre Baskerville',  Cambria, Georgia, serif;
+
+.yotta {font-size: 6rem;}
+
+.zetta {font-size: 5.04rem;}
+
+h1, .exa {font-size: $h1-fontsize;}
+
+h2, .peta {font-size: $h2-fontsize;}
+
+h3, .tera {font-size: $h3-fontsize;}
+
+h4, .giga {font-size: $h4-fontsize;}
+
+h5, .mega {font-size: $h5-fontsize;}
+
+h6, .kilo {font-size: $h6-fontsize;}
+
+.milli {font-size: 0.9rem;
+line-height: 1.4}
+
+.micro {font-size: 0.75rem;}
+
+.type-two {
+  font-family: $font-stack-secondary;
+}
+
+.text-body-lg {
+  font-size: 1.4rem;
+  line-height: 2em;
+}
+
+.caption {
+ font-size: .6em;
+}
+
+.blockquote-lg {
+  font-size: 1.7rem;
+  line-height: 2em;
+}
+p {
+    color: $grey-d-1;
+}
+
+
+.placeholder {
+  font-style: italic;
+  color: lighten($input-border-color, 20%)
+}
+
+.font-primary-color {
+  color: $primary-color;
+}
+
+.font-secondary-color {
+  color: $color-palette-a;
+}
+
+
+
+@media screen and (min-width: 400px){
+
+}
+
+@media screen and (min-width: 700px){
+
+}
+
+@media screen and (min-width: 1024px){
+
+}
+
+@media screen and (min-width: 1440px){
+
+}
+
+a.link {
+    font-family: $font-stack-secondary;
+    letter-spacing: .2rem;
+    line-height: normal;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    i {
+      padding-top: .3rem;
+    }
+  }
+  .link.em {
+
+  }
+.link-light {
+
+}
+
+.link-dark {
+
+}
+
+.link:hover {
+  color: adjust-color($color-palette-a, $lightness: 30%);
+}

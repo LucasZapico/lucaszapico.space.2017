@@ -1,0 +1,144 @@
+main.workshop {
+    display: flex;
+    padding-bottom: 4rem;
+    // justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100vw;
+
+    .tag-wrap {
+        width: 100vw;
+
+        // justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        cursor: pointer;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        min-width: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        background-color: lighten($color-palette-a, 35%);
+        border: 1px dotted $color-palette-a;
+
+        &.sel {
+            background-color: lighten($color-palette-a, 1%);
+
+            &:hover,
+            &:focus {
+                background-color: lighten($color-palette-a, 5%);
+            }
+        }
+
+        &:hover,&:focus {
+            background-color: lighten($color-palette-a, 25%);
+        }
+    }
+
+    .row {
+        overflow: hidden;
+        margin: auto;
+        position: relative;
+        margin-top: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		display: flex;
+		flex-grow: 1;
+        justify-content: center;
+        transition: all .2s linear;
+
+        // 		image cards
+        img {
+            min-height: 16rem;
+            display: flex;
+            margin: auto;
+            width: 80vw;
+            transition: all .2s ease-in-out;
+            padding: 1.5rem;
+            background-color: #fbfbfb;
+        }
+
+        .content {
+            z-index: 5;
+            left: -100%;
+            top: 0rem;
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            color: $secondary-color;
+            background-color: $light-1;
+            transition: all .3s ease-in;
+            padding: 2rem;
+
+            h4 {
+                margin-top: .2rem;
+                padding-top: .2rem;
+                font-weight: 700;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                color: $secondary-color;
+            }
+        }
+
+        &[data-tags]:hover,
+        &:focus {
+            transform: scale(1);
+            img,
+            .content {
+                background-color: $light-1;
+                &:after {
+                    // margin: auto;
+                    z-index: 10;
+                    // font-family: serif;
+                    position: absolute;
+                    content: "Open in new tab";
+                    background: $light-1;
+                    padding-left: .3rem;
+                    border-bottom: solid 2px $secondary-color;
+                    bottom: 1.7rem;
+                    right: 0rem;
+                    height: 2rem;
+                    width: 15rem;
+                    // padding: 1rem;
+                    color: $grey-d-1;
+    
+                }
+            }
+
+            .content {
+                left: 2rem;
+            }
+
+           
+        }
+    }
+
+    .hide {
+        flex-grow: 0;
+        flex-shrink: 0;
+        height: 0px;
+        width: 0px;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
+
+        img {
+            box-shadow: 0px 0px 0px #808080;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main.workshop {
+        .row {
+
+            img,
+            .card {
+                width: 40vw;
+            }
+        }
+    }
+}

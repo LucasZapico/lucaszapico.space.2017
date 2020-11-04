@@ -1,0 +1,318 @@
+---
+layout: page-hero
+title: Today I Learned
+permalink: /til-project/
+hero: /pages/projects/today-i-learned/til-assets/til-hero-1060.jpg
+<!-- hero: /pages/projects/cohen-group/cohen-group-assets/hero.jpg -->
+summary-img: /pages/projects/cohen-group/cohen-group-assets/stationary-suite.1.0.0.png
+project-img:   /pages/projects/today-i-learned/til-assets/til-hero-1060.jpg
+process-img:  /pages/projects/today-i-learned/til-assets/process/low-fid-wireframe-showcase.png
+result-img:  /pages/projects/today-i-learned/til-assets/til-hero-1060.jpg
+class: til
+---
+<main class="{{page.class}} project white">
+  <section class="summary grey-l-1">
+    <div class="row">
+      <div class="col s12 m8 l8">
+        <h3>Product</h3>
+        <p class="text-body-lg">
+          Today I Learned is a simple blog where I talk about about one of the many things I learn or gain new insight in each and everyday.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- summary -->
+  <div class="divider"></div>
+  <section class="project ">
+    <div class="row">
+      <div class="col s0 m4 l4">
+      </div>
+      <div class="col s12 m8 l8">
+        <h3>Project</br></h3>
+        <h6 class="font-primary-color"><strong>An exersize in production</strong></h6>
+        <p class="text-body-lg">
+              A walk through the full production lifecycle from conception to deployment. It is easy to get hung up on tweaking, adding features and refining the product again and again. This exercise was focused on scope, design, develop and deploy a "stable" product. Finally, showcase and distribute project assets to their respective channels.
+        </p>
+
+      </div>
+    </div>
+  </section>
+  <!-- project -->
+  {% include documentation-in-process.html %}
+  <section class="">
+
+    <div class="">
+      <h3>Process</h3>
+
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <!-- <strong>Questions</strong> -->
+        <strong><ul class="text-body-lg font-primary-color">
+          <li>
+            Define core features
+          </li>
+          </br>
+          <li>
+            Define feel, color and type
+          </li>
+          </br>
+          <li>
+            Mock low fidelity wireframes
+          </li>
+          </br>
+          <li>
+            Develop webkit
+          </li>
+          </br>
+          <li>
+            Develop site
+          </li>
+        </ul></strong>
+      </div>
+      <div class="col s12 m6 l6">
+        <img src="{{site.baseurl}}{{page.process-img}}"
+      </div>
+    </div>
+  </section>
+  <!-- process -->
+  <div class="divider"></div>
+  <section class="grey-l-1">
+    <div class="row">
+      <div class="col s12 m8 l8">
+        <h3>Results</h3>
+
+        <p class="text-body-lg">The project resulted in the successful deployment of a <a href="https://lucaszapico.github.io/today-i-learned/">Today I Learned</a> blog. <a href="https://github.com/LucasZapico/lucaszapico.github.io/blob/master/public-assets/today-i-learned/design-system-today-i-learned-public.sketch">See design files used in project</a>.</p>
+      </div>
+    </div>
+
+  </section>
+  <!-- product  -->
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <section class="assets">
+    <div>
+    <h3>production Stack</h3>
+    <ul class="collapsible">
+    <li>
+      <div class="collapsible-header">
+        <div>
+          <h4>Management</h4>
+          <p>
+            Project kept within sain levels with the magic of trello.
+          </p>
+          <h5>Suite</h5>
+          <ul>
+            <li><a href="https://trello.com">Trello</a></li>
+            <li><a href="https://help.github.com/articles/about-github-wikis/">Github.wiki</a></li>
+          </ul>
+          <div class="btn">
+            More Detail
+          </div>
+        </div>
+      </div>
+      <div class="collapsible-body">
+        <span>
+          <table>
+            <tr>
+              <td>
+                Tasking
+              </td>
+              <td>
+              <a href="https://trello.com">  Trello</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Specification Management
+            </td>
+            <td>
+            <a> Github.wiki</a>
+          </td>
+        </tr>
+          </table>
+        </span>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+        <div>
+          <h4>Design</h4>
+            <p>
+
+            </p>
+            <h5>Suite</h5>
+            <ul>
+              <li><a href="https://www.sketchapp.com/">Sketch</a></li>
+              <li><a href="https://fontawesome.com/icons?from=io">FontAwesome</a></li>
+              <li><a href="http://materializecss.com/">MaterailizeIcons</a></li>
+              <li><a href="https://unsplash.com/">Unsplash</a></li>
+            </ul>
+            <div class="btn">
+              More Detail
+            </div>
+        </div>
+      </div>
+      <div class="collapsible-body">
+        <span>
+          <table>
+            <tr>
+              <td>
+                Drafting
+              </td>
+              <td>
+              <a href="">Sketch</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Wireframing  & High Fidelity Mocks
+            </td>
+            <td>
+            <a href="">Sketch</a>
+          </td>
+          <tr>
+            <td>
+              Content Creation
+            </td>
+            <td>
+            <a href="">Sketch</a>
+          </td>
+          <tr>
+            <td>
+              Images
+            </td>
+            <td>
+            <a href="">Unsplash</a>
+          </td>
+        </tr>
+          </table>
+        </span>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+        <div>
+          <h4>Development</h4>
+            <h5>Stack</h5>
+            <ul>
+              <li><a href="">SASS</a></li>
+              <li><a href="">Liquid</a></li>
+              <li><a href="">Materailize</a></li>
+              <li><a href="">Jekyll</a></li>
+            </ul>
+            <div class="btn">
+              More Detail
+            </div>
+        </div>
+      </div>
+      <div class="collapsible-body">
+        <span>
+          <table>
+            <td>
+              <h6>Frontend</h6>
+            </td>
+            <tr>
+              <td>
+                markup
+              </td>
+              <td>
+                <a href="https://kramdown.gettalong.org/">Markdown</a> & HTML
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h6>CSS</h6>
+              </td>
+              <tr>
+                <td>
+                  CSS-preprocessor
+                </td>
+                <td>
+                  <a href="https://sass-lang.com/">SASS</a>
+                </td>
+              </tr>
+            </tr>
+            <tr>
+              <td>
+                CSS-Framework
+              </td>
+              <td>
+                <a href="https://materializecss.com">MaterializeCss</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h6>JavaSrcipt</h6>
+              </td>
+
+              <tr>
+                <td>
+                  JS-Library
+                </td>
+                <td>
+                  <a href="https://materializecss.com">MaterializeCSS</a>
+                </td>
+              </tr>
+            </tr>
+            <tr>
+              <td>
+                JS-Templating Language
+              </td>
+              <td>
+                <a href="https://shopify.github.io/liquid/">Liquid</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong><h6>BackEnd*</h6></strong>
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Platform
+              </td>
+              <td>
+                <a href="https://jekyllrb.com/">Jekyll</a>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                  Deployment
+                </td>
+                <td>
+                  <a href="https://pages.github.com/">Github + Github Pages</a>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                Environment
+              </td>
+              <td>
+                <a href="https://atom.io/">Atom</a>
+              </td>
+            </tr>
+          </table>
+        </span>
+      </div>
+    </li>
+  </ul>
+
+    <div><h4>Sanity</h4>
+    <ul class="browser-default">
+      <li>
+        <a href="http://www.jazz24.org/">Jazz24</a>
+      </li>
+      <li>
+        <a href="http://soundcloud.com/">SoundCloud</a>
+      </li>
+      <li>
+        <a href="https://takeflightcoffee.com/">Coffee</a>
+      </li>
+    </ul></div></div>
+  </section>
+  {% include get-in-touch.html %}
+</main>

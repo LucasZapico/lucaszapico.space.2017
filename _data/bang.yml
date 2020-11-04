@@ -1,0 +1,39 @@
+# Foundation for Health Care Quality
+- foundation: 
+    core-details: 
+      title: Foundation for Health Care Quality
+      status: live
+      year: 2018
+      quarter: winter
+      description: "Summary of the Foundation for Quality Health Care Project"
+      # tech-stack: [Wordpress, Bootstrap, JavaScript, HTML5, CSS3, Adobe Photoshop, Digital Ocean]
+      # content 
+    project-summary :
+      client: The Foundation for Health Care Quality
+      challenge: 'Develop their redesigned UX and UI within the Wordpress platform'
+      outcome:  'Custom theme built for Wordpress CMS via design specifications'
+      deliverables: [Custom WordpressDevelopment]
+    main-content:
+      about: ' The Foundation for Health Care Quality is a nonprofit organization dedicated to providing a trusted, independent, third-party resource to all participants in the health care community.'
+      situation: 'The Foundation completed a brand update and particular emphasis on their UX and UI. This concluded with a modern mark and clear and accessible information architecture devoted to making the mass of information they manage easily accessible to the patients frequenting their sites.'
+      challenge: 'They wanted their prototyped design within a CMS that they were used to. Their team went with old faithful, WordPress.'
+      solution: 'To this end, we developed a custom theme to match their UI view theme. Accompanied by clear content management specifications. Thus ensuring relevant information could be easily added or removed.'
+      results: ' The successful production of custom WordPress theme and content implementation specifications.'
+      deliverables: [ Web Development]
+      refelections:
+    image-content:
+      hero-1x: /pages/projects/quality-health/quality-health-assets/quality-health-hero/hero-qualtiy-health@1x.jpg 1x
+      hero-2x: /pages/projects/quality-health/quality-health-assets/quality-health-hero/hero-qualtiy-health@2x.jpg 2x
+      hero-3x: /pages/projects/quality-health/quality-health-assets/quality-health-hero/hero-qualtiy-health@3x.jpg 3x
+      hero-4x:
+      img2-1x: '/pages/projects/quality-health/quality-health-assets/showcase-quality-health/shocase-event-img@1x.jpg 1x'
+      img2-2x: /pages/projects/quality-health/quality-health-assets/showcase-quality-health/shocase-event-img@2x.jpg 2x
+      img2-3x: /pages/projects/quality-health/quality-health-assets/showcase-quality-health/shocase-event-img@3x.jpg 3x
+      img2-alt: "showcase img of Qualtiy Health event page"
+      img3-1x: /pages/projects/quality-health/quality-health-assets/showcase-quality-health/quality-health-showcase-4@1x.jpg 1x
+      img3-2x: /pages/projects/quality-health/quality-health-assets/showcase-quality-health/quality-health-showcase-4@2x.jpg 2x
+      img3-3x: /pages/projects/quality-health/quality-health-assets/showcase-quality-health/quality-health-showcase-4@3x.jpg 3x
+      img3-alt: "showcase img of Qualtiy Health home page"
+
+ 
+

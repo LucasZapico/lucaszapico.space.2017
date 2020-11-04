@@ -1,0 +1,20 @@
+<div class="navbar-fixed">
+  <nav class="main">
+    <div class="nav-wrapper grey lighten-4 ">
+      <!-- <a href="{{site.baseurl}}/#" class="brand-logo grey-text text-darken-4">LUC.INC</a> -->
+      <a href="{{site.baseurl}}/#" class="brand-logo center">
+        {% include /mark/mark-v1.1.4.svg %}
+      </a>
+
+      <ul class="right hide-on-med-and-down ">
+        {% for links in site.data.main-nav %}
+        <li>
+          <a href="{{site.baseurl}}{{links.href}}" class="link">
+            {{links.title}}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</div>

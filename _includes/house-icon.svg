@@ -1,0 +1,50 @@
+
+<svg id="house-icon" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <g id="icon-256X256" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="house-icon-back" transform="translate(26.000000, 43.000000)" fill="#FFFFFF" stroke="#303E9f">
+            <path d="M14.4121422,0.5 L0.606586689,71.5 L203.401638,71.5 L190.582193,0.5 L14.4121422,0.5 Z" id="Rectangle-4"></path>
+            <rect id="Rectangle" x="7.5" y="71.5" width="190" height="73"></rect>
+            <rect id="Rectangle-9-Copy-7" x="159.5" y="85.5" width="22" height="14"></rect>
+            <rect id="Rectangle-9-Copy-6" x="170.5" y="85.5" width="11" height="14"></rect>
+            <rect id="Rectangle-9-Copy-5" x="159.5" y="100.5" width="22" height="14"></rect>
+            <rect id="Rectangle-9-Copy-4" x="170.5" y="100.5" width="11" height="14"></rect>
+        </g>
+        <g id="chimney" transform="translate(47.000000, 26.000000)" fill="#FFFFFF" stroke="#303E9f">
+            <rect id="Rectangle-10" x="0.5" y="9.5" width="17" height="62"></rect>
+            <rect id="Rectangle-10-Copy" x="13.5" y="0.5" width="4" height="7"></rect>
+            <rect id="Rectangle-10-Copy-2" x="0.5" y="7.5" width="17" height="2"></rect>
+        </g>
+        <rect id="Rectangle-11" stroke="#303E9f" fill="#FFFFFF" transform="translate(125.000000, 188.500000) scale(1, -1) translate(-125.000000, -188.500000) " x="15.5" y="187.5" width="219" height="2"></rect>
+        <g id="house-mid" transform="translate(32.000000, 53.000000)" fill="#FFFFFF" stroke="#303E9f">
+            <path d="M0.5,60.1782257 L0.5,134.5 L124.5,134.5 L124.5,84.1926212 L49.0194089,0.766704662 L0.5,60.1782257 Z" id="Rectangle-5"></path>
+            <rect id="Rectangle-7" x="83.5" y="87.5" width="20" height="47"></rect>
+            <rect id="Rectangle-7-Copy" x="89.5" y="91.5" width="8" height="19"></rect>
+            <rect id="Rectangle-7-Copy-2" x="89.5" y="113.5" width="8" height="18"></rect>
+            <rect id="Rectangle-8" x="72.5" y="130.5" width="48" height="6"></rect>
+            <rect id="Rectangle-8-Copy" x="72.5" y="134.5" width="48" height="3"></rect>
+            <polygon id="Triangle-Copy" points="49.0273973 0 99 56 3 56"></polygon>
+        </g>
+        <g id="house-front" transform="translate(31.000000, 71.000000)" fill="#FFFFFF" stroke="#303E9f">
+            <rect id="Rectangle-6" x="23.5" y="57.5" width="22" height="29"></rect>
+            <path d="M1.5,42.1749825 L1.5,116.5 L67.5,116.5 L67.5,42.1749825 L34.5,0.801848221 L1.5,42.1749825 Z" id="Rectangle-2"></path>
+            <polygon id="Triangle" points="35 0 70 43 0 43"></polygon>
+            <g id="window" transform="translate(23.000000, 57.000000)">
+                <rect id="Rectangle-9" x="0.5" y="0.5" width="22" height="14"></rect>
+                <rect id="Rectangle-9-Copy-2" x="11.5" y="0.5" width="11" height="14"></rect>
+                <rect id="Rectangle-9-Copy" x="0.5" y="15.5" width="22" height="14"></rect>
+                <rect id="Rectangle-9-Copy-3" x="11.5" y="15.5" width="11" height="14"></rect>
+            </g>
+        </g>
+        <g id="bushes-forward" transform="translate(26.000000, 167.000000)" fill="#FFFFFF" stroke="#303E9f">
+            <ellipse id="Oval" cx="66.5" cy="13" rx="11.5" ry="13"></ellipse>
+            <ellipse id="Oval-Copy" cx="51.5" cy="10.5" rx="9.5" ry="10.5"></ellipse>
+            <ellipse id="Oval-Copy-2" cx="11.5" cy="13" rx="11.5" ry="13"></ellipse>
+            <ellipse id="Oval-Copy-3" cx="19.5" cy="17.5" rx="7.5" ry="8.5"></ellipse>
+            <ellipse id="Oval-Copy-5" cx="127" cy="13.5" rx="9" ry="10.5"></ellipse>
+            <ellipse id="Oval-Copy-4" cx="121.5" cy="17.5" rx="5.5" ry="6.5"></ellipse>
+            <ellipse id="Oval-Copy-6" cx="80" cy="19.5" rx="4" ry="4.5"></ellipse>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,141 @@
+
+title: Lucas Zapico.Space
+title_caption: version 4
+email: zapicolucas@gmail.com
+description: A space for the machinations, musing and tinkering within the digital space by Luc.Z.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+favicon: /assets/img/mark/favicon/mark-v1.1.4-favicon-32@1x.png  #16x16 or 32x32
+profile_image: /assets/img/main-profile.jpg
+
+
+# BUILD SETTING
+markdown: kramdown
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# LOCAL DEVELOPMENT
+# host: 192.168.1.1 wifi
+host: 127.0.0.1
+port: 4466
+
+exclude:
+  - .gitignore
+  - /public-assets
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - /bundle/
+  - /cache/
+  - /gems/
+  - /ruby/
+  - /pages/projects/wip/
+  - /pages/test
+  #  - /pages/all-projects
+  - /assets/img/sitemap-imgi
+  - /assets/JS/material-js
+
+# OPTIMIZATION
+sass:
+ style: compressed
+ sass_dir: _sass
+ sourcemap: true
+
+# # PLUGINS
+plugins:
+ - jekyll-assets
+  # - jekyll-sitemap
+
+
+# OTHER MEDIA OUTLETS
+twitter_username: https://twitter.com/lucas_zapico_10
+github_username:  LucasZapico
+github_link: https://github.com/LucasZapico
+facebook_link: https://www.facebook.com/lucas.zapico.7
+linkedin_link: https://www.linkedin.com/in/lucasmmzapico/
+pinterest_link:
+codepen_link: https://codepen.io/LucasZapico
+codesandbox_link: https://codesandbox.io/u/LucasZapico
+codewars_link: https://www.codewars.com/users/LucasZapico
+instagram_link: https://www.instagram.com/10zapico/
+
+
+## Defaults
+# # Where things are
+# source              : .
+# destination         : ./_site
+# collections_dir     : .
+# plugins_dir         : _plugins
+# layouts_dir         : _layouts
+# data_dir            : _data
+# includes_dir        : _includes
+# collections:
+#   posts:
+#     output          : true
+#
+# # Handling Reading
+# safe                : false
+# include             : [".htaccess"]
+# exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+# keep_files          : [".git", ".svn"]
+# encoding            : "utf-8"
+# markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+# strict_front_matter : false
+#
+# # Filtering Content
+# show_drafts         : null
+# limit_posts         : 0
+# future              : false
+# unpublished         : false
+#
+# # Plugins
+# whitelist           : []
+# plugins             : []
+#
+# # Conversion
+# markdown            : kramdown
+# highlighter         : rouge
+# lsi                 : false
+# excerpt_separator   : "\n\n"
+# incremental         : false
+#
+# # Serving
+# detach              : false
+# port                : 4000
+# host                : 127.0.0.1
+# baseurl             : "" # does not include hostname
+# show_dir_listing    : false
+#
+# # Outputting
+# permalink           : date
+# paginate_path       : /page:num
+# timezone            : null
+#
+# quiet               : false
+# verbose             : false
+# defaults            : []
+#
+# liquid:
+#   error_mode        : warn
+#   strict_filters    : false
+#   strict_variables  : false
+#
+# # Markdown Processors
+# rdiscount:
+#   extensions        : []
+#
+# redcarpet:
+#   extensions        : []
+#
+# kramdown:
+#   auto_ids          : true
+#   entity_output     : as_char
+#   toc_levels        : 1..6
+#   smart_quotes      : lsquo,rsquo,ldquo,rdquo
+#   input             : GFM
+#   hard_wrap         : false
+#   footnote_nr       : 1
+#   show_warnings     : false

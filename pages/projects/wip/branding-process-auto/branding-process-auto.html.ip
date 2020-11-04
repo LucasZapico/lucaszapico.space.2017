@@ -1,0 +1,46 @@
+---
+layout: page-hero
+title: Branding Content and Resouce Automation
+<!-- permalink: /branding-auto-project/ -->
+hero: /pages/projects/branding-process-auto/branding-process-auto-assets/showcase-moodboards@2x.jpg
+<!-- hero: /pages/projects/branding-auto/branding-auto-assets/hero.jpg -->
+img2: /pages/projects/branding-auto/branding-auto-assets/stationary-suite.1.0.0.png
+asset-link: https://www.dropbox.com/s/2x91gypiim49yat/branding-moodboard-processed-public.sketch?dl=0
+class: branding-auto
+---
+<main class="{{page.class}}">
+  <section class="summary">
+    <h3>Product</h3>
+    <p class="text-body-lg">
+    Cohen Group is a Keller Williams Real Estate group located in Bellingham Washington. Focused on putting good people in healthy communities their by facilitating the meeting of individual goals.
+    </p>
+    <h3>Project</h3>
+    <p>
+      This project leveraged workflows in sketch and web environments to develop semi-automated processes to produce high quality core brand content. Thereby facilating key branding documentation is expediantely and efficiently produced.
+
+    </p>
+  </section>
+  <section>
+    <h5><strong>Interesting Challenges...</strong></br></h5>
+  <h6><ul class="browser-default">
+  <li>Symbolizing, community, North West, real estate and support</li>
+  <li>Produce a unique personal brand while aligning with Keller William guidelines</li>
+  <li>Producing a brand that was recognizable as a real estate brand while being unique and personal</li>
+  </ul></h6>
+  </section>
+  <section>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <h5><strong>Process and Solutions</strong></h5><p>The methodology adhered to during production follows the following principles.   was…</p><ul><li>Attention</li><li>Response</li><li>Meaning</li><li>Memory</li></ul>
+result: <h5><strong>Reflections</strong></h5><h6>Working through a branding process is always an enjoyable creative exercise. The challenge in aligning uniqueness and clarity to produce something that captures, intrigues and informs.</h6>
+      </div>
+      <div class="col s12 m6 l6">
+        <img src="{{site.baseurl}}{{page.img2}}" />
+      </div>
+    </div>
+  </section>
+  <section>
+    <h5><strong>Reflections</strong></h5>
+    <h6></h6>
+  </section>
+</main>

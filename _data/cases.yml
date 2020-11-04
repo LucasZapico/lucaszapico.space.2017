@@ -1,0 +1,174 @@
+# - title:          Sunshine AZ
+#   status:         live
+#   date:           2018
+#   link:
+#   categories:     []
+#   tags:           ['branding', 'design', 'digital&#8209presence']
+#   type:           project
+#   card-img-1x :
+#   card-img-2x :
+#   card-img-3x :
+#   card-img-4x :
+#   card-alt: "Cohen Group Project Card Image"
+#   offical-link:   https://sunshinelifeaz.com/
+#   project-link:   /sunshine-life-project/
+#   description:    Branding and digital presence solution implementation
+
+- title:          CM Real Estate
+  status:         live
+  date:           2018
+  link:
+  categories:     []
+  tags:           ['branding', 'design', 'digital&#8209presence']
+  type:           project
+  card-img-1x :           /pages/projects/morency-real-estate/morency-real-estate-assets/card-img-cm-real-estate/card-img-morency-real-estate-600.jpg 600w
+  card-img-2x : /pages/projects/morency-real-estate/morency-real-estate-assets/card-img-cm-real-estate/card-img-morency-real-estate-1200.jpg 1200w
+  card-img-3x : /pages/projects/morency-real-estate/morency-real-estate-assets/card-img-cm-real-estate/card-img-morency-real-estate-1800.jpg 1800w
+  card-img-4x : /pages/projects/morency-real-estate/morency-real-estate-assets/card-img-cm-real-estate/card-img-morency-real-estate-2400.jpg 2400w
+  card-alt: "CM Real Estate Project Card Image"
+  offical-link:   https://clairemorency.withwre.com/
+  project-link:   /morency-real-estate-project/
+  description:    Print design, Web-Design, Branding
+
+- title:          Portfolio
+  status:         live
+  date:           2018
+  # link:
+  # categories:   []
+  tags:           ['design', 'development', 'full&#8209stack']
+  type:           project
+  card-img-1x :           /pages/projects/luc.inc/luc.inc-assests/card-img-luc-inc/card-img-luc-inc-600.jpg 600w
+  card-img-2x : /pages/projects/luc.inc/luc.inc-assests/card-img-luc-inc/card-img-luc-inc-1200.jpg 1200w
+  card-img-3x : /pages/projects/luc.inc/luc.inc-assests/card-img-luc-inc/card-img-luc-inc-1800.jpg 1800w
+  card-img-4x : /pages/projects/luc.inc/luc.inc-assests/card-img-luc-inc/card-img-luc-inc-2400.jpg 2400w
+  card-alt: "Luc.Inc Project Card Image"
+  offical-link:   https://lucaszapico.github.io/
+  project-link:   /luc-inc-project/
+  description:    This is an ongoing project to develop and refine Luc.inc digital presence. Including the asset pipelines and channel that need to be developed for a potent digital identity.
+
+- title:          FreeBird Rides
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['branding', 'design', 'user&#8209interface', 'user&#8209experience', 'quality&#8209assurance&#8209testing']
+  icon:           assets/img/project-img/icons/freebird-icon.png
+  card-img-1x :           /pages/projects/freebird-rides/freebird-rides-assets/card/freebird-splash-300.jpg 300w
+  card-img-2x : /pages/projects/freebird-rides/freebird-rides-assets/card/freebird-splash-500.jpg 500w
+  card-img-3x : /pages/projects/freebird-rides/freebird-rides-assets/card/freebird-splash-600.jpg 600w
+  card-img-4x : /pages/projects/luc.inc/luc.inc-assests/card-img-luc-inc/card-img-luc-inc-600.jpg 600w
+  card-alt: "Freebird Rides Project Card Image"
+  offical-link:   https://www.freebirdrides.com/
+  project-link:   /freebird-rides-project/
+  responsibility: Team onboarding, Quality Assurance, Brand Development and Content Creation
+  description:    I was tasked with early-stage black box quality assurance testing. The creation and maintenance of core application UI assets and was a part of the initial branding team.
+
+- title:          LifeLines
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['project&#8209management','user&#8209interface', 'user&#8209experience', 'frontend&#8209developemt']
+  icon:           assets/img/project-img/icons/lifelines-icon.png
+  card-img-1x :           /pages/projects/lifelines/lifelines-assets/card-img/card-img-lifelines-v2-600.jpg 600w
+  card-img-2x : /pages/projects/lifelines/lifelines-assets/card-img/card-img-lifelines-v2-1200.jpg 1200w
+  card-img-3x : /pages/projects/lifelines/lifelines-assets/card-img/card-img-lifelines-v2-1800.jpg 1800w
+  card-img-4x : /pages/projects/lifelines/lifelines-assets/card-img/card-img-lifelines-v2-2400.jpg 2400w
+  card-alt: "Lifelines Project Card Image"
+  project-link:   /lifelines-project/
+  responsibility: Product Management, User Interface and Experience Design and Testing
+  description:    I was tasked with the discovery, planning and development of a web and mobile application. This included developing core brand content, design kit, webkit and application architecture.
+
+- title:          MyLücke
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['user&#8209interface']
+  icon:           assets/img/project-img/icons/mylucke-icon.png
+  card-img-1x :           /pages/projects/mylucke/mylucke-assets/card-img-mylucke/card-img-mylucke-v2-600.jpg 600w
+  card-img-2x : /pages/projects/mylucke/mylucke-assets/card-img-mylucke/card-img-mylucke-v2-1200.jpg 1200w
+  card-img-3x : /pages/projects/mylucke/mylucke-assets/card-img-mylucke/card-img-mylucke-v2-1800.jpg 1800w
+  card-img-4x : /pages/projects/mylucke/mylucke-assets/card-img-mylucke/card-img-mylucke-v2-2400.jpg 2400w
+  card-alt: "MyLucke Project Card Image"
+  offical-link:   https://docknow.com/
+  project-link:   /mylucke-project/
+  responsibility: Web design, Quality Assurance Testing, and Product Management
+  description:    I was responsible for UI asset management for both web and mobile component libraries. The production of web application design and the quality assurance testing of the product.
+
+
+- title:          DadApp
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['project&#8209management','user&#8209interface', 'user&#8209experience']
+  icon:           assets/img/project-img/icons/dadapp-icon.png
+  card-img-1x :           /pages/projects/dadapp/dadapp-assets/card-img-dad-app/card-img-dadapp-v2-600.jpg 600w
+  card-img-2x : /pages/projects/dadapp/dadapp-assets/card-img-dad-app/card-img-dadapp-v2-1200.jpg 1200w
+  card-img-3x : /pages/projects/dadapp/dadapp-assets/card-img-dad-app/card-img-dadapp-v2-1800.jpg 1800w
+  card-img-4x : /pages/projects/dadapp/dadapp-assets/card-img-dad-app/card-img-dadapp-v2-2400.jpg 2400w
+  card-alt: "DadApp Project Card Image"
+  project-link:   /dadapp-project/
+  responsibility: User Interface and Experience Design, Testing and Product Management
+  description:    I was tasked with the design of the UI and feature set of a IOS mobile application
+
+- title:          AAC
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['web&#8209design', 'content&#8209creation']
+  icon:           assets/img/project-img/icons/aac-icon.png
+  card-img-1x :           /pages/projects/aac/aac-assets/aac-card-img/card-img-aac-v2-600.jpg 600w
+  card-img-2x : /pages/projects/aac/aac-assets/aac-card-img/card-img-aac-v2-1200.jpg 1200w
+  card-img-3x : /pages/projects/aac/aac-assets/aac-card-img/card-img-aac-v2-1800.jpg 1800w
+  card-img-4x : /pages/projects/aac/aac-assets/aac-card-img/card-img-aac-v2-2400.jpg 2400w
+  card-alt: "DadApp Project Card Image"
+  offical-link:   http://www.advancedaircraftcompany.com/
+  project-link:   /aac-project/
+  responsibility: Content Management, Web Design, Hosting
+  description:    I was responsible for the curation, production brand assets and deployment of the wordpress website.
+
+- title:          Fantelope
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['project-management','user-interface', 'user-experience']
+  icon:           assets/img/project-img/icons/fantelope.jpeg
+  card-img-1x :
+  card-img-2x :
+  card-img-3x :
+  card-img-4x :
+  offical-link:   http://www.advancedaircraftcompany.com/
+  project-link:   /fantelope-project/
+  description:    Tasked with the redesign of an IOS application. I produced renewed UI and application architecture.
+
+- title:          JAFRA
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['design','frontend&#8209development']
+  icon:           assets/img/project-img/icons/jafra-icon.png
+  offical-link:
+  project-link:   /jafra-project/
+  responsibility: PSD to web
+  description:    The project consisted of the porting of photoshop files into html and css
+
+- title:          Today I learned
+  status:         draft
+  date:           2017
+  link:
+  categories:     []
+  tags:           ['design', 'frontend&#8208development', 'end&#8208to&#8208end']
+  type:           project
+  img:            /pages/projects/today-i-learned/til-assets/til-3@0x.jpg
+  offical-link:   https://lucaszapico.github.io/today-i-learned/
+  project-link:   /til-project/
+  description:    This project utilized the implementation of a symbolized sketch design system of core components, which was then developed into a sass variablized webkit. Thereby, expediting and ensuring consistency between design and development.
+
+- title:          Freed-om
+  status:         draft
+  date:           2018
+  link:
+  categories:     []
+  tags:           ['web-design', 'frontend&#8209development', 'end&#8209to&#8209end', 'user&#8209experience']
+  type:           project
+  # offical-link: https://lucaszapico.github.io/
+  project-link:   /freed-om-project/
+  description:    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim nunc, blandit consequat ipsum eget, aliquet bibendum nibh. Mauris ac felis vitae arcu mollis sollicitudin eget nec est. Curabitur ut vulputate massa. Fusce quis magna commodo, mollis justo nec, tempor sapien. Duis eget euismod sem, et maximus neque. Mauris dictum luctus sapien, non lacinia mauris bibendum elementum. Sed et viverra risus, eu accumsan tellus.

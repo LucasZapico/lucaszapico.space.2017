@@ -1,0 +1,189 @@
+---
+layout: page-hero
+class: quality-health
+permalink: /test/
+previous: /morency-real-estate-project/
+---
+
+{% assign project = site.data.bang[0].foundation %}
+<div class="row arrows-wrap" style="">
+    <a href="{{site.baseurl}}{{page.previous}}">
+      <span class="valign-wrapper arrows" style="float: right; margin-right: 2rem; ">
+        <p class="">
+          Next Project
+        </p>
+        <i class="fas fa-angle-right"></i>
+      </span>
+    </a>
+  </div>
+<main class="{{page.class}} project text-body-lg">
+  <section class="product container" alt="situation">
+    <div class="row"><h2><strong>Project: {{project.core-details.title}}</strong></h2>
+      <div class="divider">
+      </div>
+      <div class="col s12 m10 l10 xl8">
+        <p class="text-body-lg ">
+          <div class="details space">
+            <h3>Summary</h3>
+            <h5>Client</h5>
+            <p>{{project.project-summary.client}}</p>
+            <h5>Challenge</h5>
+            <p>{{project.project-summary.challenge}}</p>
+            <h5>Outcome</h5>
+            <p>{{project.project-summary.outcome}}</p>
+            <h5>Deliverables</h5>
+            <p>{{project.project-summary.deliverables}}</p>
+          </div>
+      </div>
+      <div class="col s12 m2 l2 xl4">
+        <div class="stack space row">
+          <div class="col s6 m6 l6">
+            <div>
+              <img src="{{site.baseurl}}/assets/img/technology-icons-svg/wordpress.svg" />
+              <span class="milli grey-test lighten-text-1">
+                <p>
+                  Wordpress
+                </p>
+              </span>
+            </div>
+            <div>
+              <img src="{{site.baseurl}}/assets/img/technology-icons-svg/bootstrap.svg" />
+              <span class="milli grey-test lighten-text-1">
+                <p>
+                  Bootstrap
+                </p>
+              </span>
+            </div>
+            <div>
+              <img src="{{site.baseurl}}/assets/img/technology-icons-svg/javascript.svg" />
+              <span class="milli grey-test lighten-text-1">
+                <p>
+                  JavaScript
+                </p>
+              </span>
+            </div>
+            <div>
+              <img src="{{site.baseurl}}/assets/img/technology-icons-svg/html5.svg" />
+              <span class="milli grey-test lighten-text-1">
+                <p>
+                  HTML5
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="col s6 m6 l6">
+            <div>
+            <img src="{{site.baseurl}}/assets/img/technology-icons-svg/css3.svg" />
+            <span class="milli grey-test lighten-text-1">
+              <p>
+                CSS3
+              </p>
+            </span>
+          </div>
+          <div>
+            <img src="{{site.baseurl}}/assets/img/technology-icons-svg/adobephotoshop.svg" />
+            <span class="milli grey-test lighten-text-1">
+              <p>
+                Adobe Photoshop
+              </p>
+            </span>
+          </div>
+          <div>
+            <img src="{{site.baseurl}}/assets/img/technology-icons-svg/digitalocean.svg" />
+            <span class="milli grey-test lighten-text-1">
+              <p>
+                Digital Ocean
+              </p>
+            </span>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row ">
+      <div class="col s12 m12 l12">
+        <img srcset="{{site.baseurl}}{{project.image-content.img2-1x}},
+                    {{site.baseurl}}{{project.image-content.img2-2x}},
+                    {{site.baseurl}}{{project.image-content.img2-3x}}
+                    " alt="{{project.image-content.img2-alt}}" class="" />
+      </div>
+    </div>
+    <div class="bg-color space">
+    <div class="row container">
+      <div class="col s12 m6 l6">
+      </div>
+      <div class="col s12 m6 l6">
+        <h3><strong>About</strong></h3>
+        <p class="text-body-lg">
+         {{project.main-content.about}}
+        </p>
+        <h3><strong>Situation</strong></h3>
+        <p class="text-body-lg">
+          {{project.main-content.situation}}
+        </p>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <img srcset="{{site.baseurl}}{{project.image-content.img3-1x}},
+                    {{site.baseurl}}{{project.image-content.img3-2x}},
+                    {{site.baseurl}}{{project.image-content.img3-3x}}
+                    " alt="{{project.image-content.img3-alt}}" class="" />
+      </div>
+    </div>
+
+  </section>
+  <section class="project space" alt="task">
+    <div class="row container">
+      <div class="col s12 m6 l6">
+        <h3><strong>Challenge</strong></h3>
+        <p class="text-body-lg">
+          {{project.main-content.challenge}}
+        </p>
+        <h3><strong>Solution</strong></h3>
+        <p class="text-body-lg">
+          {{project.main-content.solution}}
+        </p>
+      </div>
+    </div>
+    <div class="col s12 m6 l6">
+    </div>
+  </section>
+
+  <section class="process container" alt="action">
+    <div class="row ">
+      <div class="col s12 m6 l6">
+
+      </div>
+      <div class="col s12 m6 l6">
+
+      </div>
+    </div>
+  </section>
+  <section class="reflections bg-color space" alt="results">
+    <div class="row container">
+      <div class="col s12 m6 l6">
+        <h3>Results</h3>
+        <p class="text-body-lg">
+          {{project.main-content.results}}
+        </p>
+        
+      </div>
+      <div class="col s12 m6 l6">
+
+
+        <h4><em>Deliverables</em></h4>
+        <ul class="browser-default">
+          <li>
+            <p>
+              Web Development
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>

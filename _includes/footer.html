@@ -1,0 +1,74 @@
+</div>
+<!-- main  -->
+</div>
+<!-- container  -->
+<footer class="page-footer grey-text lighten-text-2 space-row">
+  <div class="container">
+    <div class="row brand brand-logo">
+      <div class="col s6 m4 l4">
+        <a href="{{site.baseurl}}/#">
+          {% include /mark/mark-v1.1.4.svg %}
+        </a>
+        <p class="grey-text text-lighten-2">
+          Thanks for making it this far. This site was built inside and out by Lucas Zapico. Version 3 was was built on
+          MaterializeCSS framework, parsing and bundling handled by Jekyll. Cheers!
+        </p>
+      </div>
+      <div class="col s6 m4 l4">
+        <h5 class="light">LUC.INC</h5>
+        <ul>
+          <ul class=" ">
+            {% for links in site.data.main-nav %}
+            <li>
+              <a href="{{site.baseurl}}{{links.href}}" class="link" style="padding-bottom: .4rem;">
+                {{links.title}}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          <!-- <li>
+                <a class="link" href="{{site.baseurl}}/webkit/">Webkit</a>
+              </li> -->
+          <li>
+            <a class="link" href="{{site.baseurl}}/sitemap/">SiteMap</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col s6 m4 l4">
+        <h5 class="light">Connect</h5>
+        <div class="social-links">
+          <a href="mailto:{{site.email}}"><i class="fas fa-envelope fa-lg"></i></a>
+          <a href="{{site.github_link}}"><i class="fab fa-github fa-lg"></i></a>
+          <a href="{{site.codepen_link}}"><i class="fab fa-codepen fa-lg"></i></a>
+          <a href="{{site.linkedin_link}}"><i class="fab fa-linkedin fa-lg"></i></a>
+          <!-- <a href="{{site.facebook_link}}"><i class="fab fa-facebook fa-lg"></i></a> -->
+          <!-- <a href="{{site.twitter_link}}"><i class="fab fa-twitter fa-lg"></i></a> -->
+          <!-- <a href="{{site.instagram_link}}"><i class="fab fa-instagram fa-lg"></i></a> -->
+          <!-- <a href="http://www.flickr.com/photos/zlucas/"></a><i class="fab fa-flickr fa-lg"></i></a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <div>Last Updated Febuary 2020</div>
+      <div class="brand">
+        © 2019 Copyright Lucas inc
+        <!-- <a class="" href="#!">More Links</a> -->
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Compiled and minified JavaScript -->
+<!-- <script src="{{site.baseurl}}/assets/js/material-js/bin/materialize.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/script.js"></script> -->
+
+<script src="{{site.baseurl}}/assets/materialize.min.js"></script>
+<script src="{{site.baseurl}}/assets/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000
+  });
+</script>
