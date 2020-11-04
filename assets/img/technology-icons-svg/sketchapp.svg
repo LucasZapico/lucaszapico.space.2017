@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>sketchapp</title>
-    <g id="materialize" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="sketchapp" stroke="#C7B654" transform="translate(1.000000, 1.000000)">
-            <polygon id="Path-3" points="4 1 9 0 14 1 18 6 9 17 0 6"></polygon>
-            <path d="M0,6 L18,6" id="Path-4"></path>
-            <polygon id="Path-5" stroke-linejoin="bevel" points="9 0 14 6 14 1"></polygon>
-            <polygon id="Path-5-Copy" stroke-linejoin="bevel" transform="translate(6.500000, 3.000000) scale(-1, 1) translate(-6.500000, -3.000000) " points="4 0 9 6 9 1"></polygon>
-            <polygon id="Path-6" stroke-linecap="square" points="14 6 9 16 4 6"></polygon>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="18" version="1.1" viewBox="0 0 20 18"><title>sketchapp</title><g id="materialize" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="sketchapp" stroke="#C7B654" transform="translate(1.000000, 1.000000)"><polygon id="Path-3" points="4 1 9 0 14 1 18 6 9 17 0 6"/><path id="Path-4" d="M0,6 L18,6"/><polygon id="Path-5" stroke-linejoin="bevel" points="9 0 14 6 14 1"/><polygon id="Path-5-Copy" stroke-linejoin="bevel" points="4 0 9 6 9 1" transform="translate(6.500000, 3.000000) scale(-1, 1) translate(-6.500000, -3.000000)"/><polygon id="Path-6" stroke-linecap="square" points="14 6 9 16 4 6"/></g></g></svg>
